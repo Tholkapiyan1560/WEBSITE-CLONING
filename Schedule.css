@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #c9d6dc;
+  }
+  header {
+    background-color: #1a3344;
+    padding: 40px 20px;
+    height: 25vh; 
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80vh; 
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .branding {
+    margin-left: 120px;
+    border-top: 4px solid #648880;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: rgb(100, 136, 128);
+    margin-top: -38px;
+
+  }
+ 
+  
+  .branding h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:lighter;
+    margin-left: 45px;
+    margin-top: 40px;
+    
+  }
+  
+  .branding h1 a:hover {
+    color: #7fa2a4;
+  }
+  #mainspan{
+    margin-top: 50px;
+  }
+  #span1{
+    font-weight: lighter;
+    
+
+  }
+  #span2 {
+    margin-left: 50px;
+    font-weight: lighter;
+  }
+  
+  .top-right {
+    text-align: right;
+    margin-right: 250px;
+  }
+  
+  .date-location {
+    font-size: 15px;
+    color: #7fa2a4;
+    margin-bottom: 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 50;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: #7fa2a4;
+  }
+  #head2{
+    height: 30vh;
+    background-color: #c9dcc0;
+  }
+  #sp{
+    color: #627c7d;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 25px;
+    font-size: xx-large;
+  }
+  #p1{
+    color:#889297;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 100px;
+
+  }
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    line-height: 1.6;
+  }
+  .schedule {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    color: #5e6e65;
+    position: relative;
+  }
+  
+  .schedule-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .schedule-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4e6d64;   
+  }
+  
+  .schedule-header p {
+    font-size: 16px;
+    color: #999;
+    border-bottom: 1px solid #ddd;  
+    padding-bottom: 20px;           
+    margin: 0px 0px 0px 0px; 
+    margin-right:700px;                     
+  }
+  
+  .schedule-item {
+    display: flex;
+    align-items: center;            
+    padding: 15px 0;
+  }
+  
+  .schedule-item time {
+    width: 120px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8a9b9a;
+    text-align:center;
+    margin-left: 50px;
+    margin-top: -28px;
+  }
+  
+  .session {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;            
+    margin-bottom: 8px;            
+  }
+  
+  /* Remove line ONLY for the last schedule item */
+  .schedule-item:last-of-type .session {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .session p,
+  .session strong {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #6c7a78;
+    display: block;
+  }
+  
+  .speaker {
+    min-width: 300px;
+  }
+  .link{
+    text-decoration: none;
+    color:#999;
+  }
+  .link:hover{
+    color: #4e6d64;
+  }
+  .link2{
+    text-decoration: none;
+    color: #4e6d64;
+  }
+  .link2:hover{
+    color: #999;
+    text-decoration: none;
+  }
+  .main-footer {
+    background: #2c3e50;
+    color: #7f8c8d;
+    font-size: 0.875em;
+    padding: 1em 0;
+
+  }
+  
+  .main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2em;
+    height: 10vh;
+  }
+  
+  .main-footer nav a {
+    color: #ecf0f1;
+    margin-left: 1.5em;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size: x-small;
+  }
+  
+  .main-footer nav a:hover {
+    color: #225c5c;
+  }
+  
+  

@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #c9d6dc;
+  }
+  header {
+    background-color: #1a3344;
+    padding: 40px 20px;
+    height: 25vh; 
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80vh; 
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .branding {
+    margin-left: 120px;
+    border-top: 4px solid #648880;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: rgb(100, 136, 128);
+    margin-top: -38px;
+
+  }
+ 
+  
+  .branding h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:lighter;
+    margin-left: 45px;
+    margin-top: 40px;
+    
+  }
+  
+  .branding h1 a:hover {
+    color: #7fa2a4;
+  }
+  #mainspan{
+    margin-top: 50px;
+  }
+  #span1{
+    font-weight: lighter;
+    
+
+  }
+  #span2 {
+    margin-left: 50px;
+    font-weight: lighter;
+  }
+  
+  .top-right {
+    text-align: right;
+    margin-right: 250px;
+  }
+  
+  .date-location {
+    font-size: 15px;
+    color: #7fa2a4;
+    margin-bottom: 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 50;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: #7fa2a4;
+  }
+  #head2{
+    height: 30vh;
+    background-color: #c9dcc0;
+  }
+  #sp{
+    color: #627c7d;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 25px;
+    font-size: xx-large;
+  }
+  #p1{
+    color:#889297;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 100px;
+
+  }
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    line-height: 1.6;
+  }
+.register {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+ 
+  
+  .register .text {
+    flex: 0.5;
+    min-width: 100px;
+    margin-left: 200px;
+  }
+  
+  .register .text h3 {
+    font-size: 20px;
+    color: #648880;
+    margin-bottom: 5px;
+    font-weight: 100;
+  }
+  
+  .register .text h6 {
+    font-size: 10px;
+    color: #a9b2b9;
+    margin: 5px 0;
+    font-weight: 100;
+
+  }
+  
+  .register .text p {
+    font-size: 12px;
+    color:#889297;
+    margin-bottom: 20px;
+    font-weight: 100;
+  }
+  
+  .register .text h4 {
+    font-size: 20px;
+    color: #648880;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 100;
+
+
+  }
+  
+  .register .text ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #333;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  
+  .register .forms {
+    flex: 0.5;
+    min-width: 100px;
+    margin-top: -20px;
+  }
+  
+  .register .forms label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:#648880;
+    font-weight: 100;
+    font-size: medium;
+  }
+  
+  .register .forms input[type="text"],
+  .register .forms input[type="email"],
+  .register .forms textarea {
+    width: 50%;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .register .forms textarea {
+    resize: vertical;
+  }
+  
+  .register .forms input[type="submit"] {
+    margin-top: 15px;
+    background-color: #648880;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register .forms input[type="submit"]:hover {
+    background-color: #506e70;
+  }
+  .register .forms select{
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .main-footer {
+    background: #2c3e50;
+    color: #7f8c8d;
+    font-size: 0.875em;
+    padding: 1em 0;
+
+  }
+  
+  .main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2em;
+    height: 10vh;
+  }
+  
+  .main-footer nav a {
+    color: #ecf0f1;
+    margin-left: 1.5em;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size: x-small;
+  }
+  
+  .main-footer nav a:hover {
+    color: #225c5c;
+  }
+  
