@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+}
+.heading{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+    color: #926541;
+    font-size: large;
+    margin-top: 150px;
+}
+
+  .heading-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .heading-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Welcome Beach', sans-serif; 
+  }
+  .heading-content p {
+    font-size: 1em; 
+    margin: 0.5em 0;
+    font-family: 'Arial', sans-serif;
+    white-space: nowrap;
+    text-align: center;
+    
+  
+  }
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #926541;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    font-family: sans-serif;
+    font-size: large;
+    margin-bottom: 300px;
+    
+   
+  }
+ 
+  .button:hover {
+    background-color: #926541;
+    color: #f4f4f4;
+  }
+
+.p-1{
+    background-color: #926541;
+    width: 300px;
+    color: #f4f4f4;
+    display: inline-block;
+    padding: 30px;
+}
+.p-3{
+    background-color: #926541;
+    width: 300px;
+    color: #f4f4f4;
+    display: inline-block;
+    padding: 30px;
+}
+#inner {
+  display: flex; /* Enables flexbox layout */
+
+  
+}
+#inner p {
+    flex: 1; /* Each paragraph will take up equal space */
+    margin: 0; /* Removes default margin */
+    padding: 30px; /* Adds padding inside each paragraph */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+    text-align: center;
+}
+
+.p-2{
+    color: #926541;
+    width: 300px;
+    display: inline-block;
+    padding: 40px;
+}
+.th{
+    background-color: #926541;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.ol
+{
+    color: #926541;
+    text-align: center;    
+
+}
